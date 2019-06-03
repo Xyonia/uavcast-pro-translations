@@ -2,7 +2,7 @@
   "headerLinks": {
     "discord": "Discord",
     "community": "Forum",
-    "documentation": "Documentation"
+    "documentation": "Dokümantasyon"
   },
   "sidebarLinks": {
     "categories": {
@@ -224,26 +224,26 @@
     "width": "En",
     "height": "Yükseklik",
     "bitrate": "Bit Oranı",
-    "bitrateDescription": "Default : 2000000 or 2Mbits/s. Use bits per second, so 10Mbits/s would be 10000000. For H264, 1080p30 a high quality bitrate would be 15Mbits/s or more. Maximum bitrate is 25Mbits/s (25000000), but much over 17Mbits/s won't show noticeable improvement at 1080p30.",
+    "bitrateDescription": "Varsayılan: 2000000 veya 2Mbits / s. Saniyede bit kullanın, bu nedenle 10Mbit / sn 10000000 olur. H264, 1080p30 için yüksek kaliteli bir bit hızı 15Mbit / sn veya daha fazla olur. Maksimum bit hızı 25 MB / sn'dir (25000000), ancak 17 MB / sn'den fazlası 1080p30'da belirgin bir iyileşme göstermez.",
     "bitrateHelpBlock": "Bit Oranı",
-    "rotation": "Rotation",
-    "rotationDescription": "Sets the rotation of the image in the viewfinder and resulting image. This can take any value from 0 upwards, but due to hardware constraints only 0, 90, 180, and 270 degree rotations are supported",
-    "rotationHelpBlock": "Rotation",
-    "contrast": "Contrast",
-    "contrastDescription": "Sets the contrast of the image. 0 is the default",
-    "contrastHelpBlock": "Contrast",
-    "brightness": "Brightness",
-    "brightnessDescription": "Sets the brightness of the image. 50 is the default. 0 is black, 100 is white",
-    "brightnessHelpBlock": "Brightness",
-    "autowhitebalance": "Automatic White Balance",
-    "autowhitebalanceDescription": "Default Value: Auto. Modes for which colour temperature ranges (K) are available have these settings in brackets.",
-    "autowhitebalanceHelpBlock": "White Balance",
+    "rotation": "Döndürme",
+    "rotationDescription": "Görüntünün dönüşünü vizörde ve elde edilen görüntünün içinde ayarlar. Bu 0'dan yukarı herhangi bir değer alabilir, ancak donanım kısıtlamaları nedeniyle yalnızca 0, 90, 180 ve 270 derecelik dönüşler desteklenir.",
+    "rotationHelpBlock": "Döndürme",
+    "contrast": "Kontrast",
+    "contrastDescription": "Resmin kontrastını ayarlar. 0 varsayılandır.",
+    "contrastHelpBlock": "Kontrast",
+    "brightness": "Parlaklık",
+    "brightnessDescription": "Görüntünün parlaklığını ayarlar. 50 varsayılandır. 0 siyah, 100 beyaz.",
+    "brightnessHelpBlock": "Parlaklık",
+    "autowhitebalance": "Otomatik beyaz dengesi.",
+    "autowhitebalanceDescription": "Varsayılan Değer: Otomatik. Renk sıcaklığı aralıklarının (K) mevcut olduğu modlar, bu ayarlara parantez içinde verilmiştir.",
+    "autowhitebalanceHelpBlock": "Beyaz Dengesi",
     "framesPrSecond": "Saniye başına kare sayısı",
-    "framesPrSecondDescription": "Default value = 20. At present, the minimum frame rate allowed is 2fps, and the maximum is 30fps",
+    "framesPrSecondDescription": "Varsayılan değer = 20. Şu anda izin verilen minimum kare hızı 2 fps, maksimum 30 fps'dir.",
     "framesPrSecondHelpBlock": "FPS",
     "cameraFlip": "Kamerayı döndür",
     "cameraFlipDescription": " Görüntü oryantasyonunu seçiniz (Dikey/Yatay).",
-    "cameraFlipHelpBlock": "Orientation",
+    "cameraFlipHelpBlock": "Oryantasyon",
     "buttons": {
       "start": "Kamerayı başlat",
       "stop": "Kamerayı durdur",
@@ -330,7 +330,7 @@
       "serverPort": "Sunucu Portu",
       "serverPortHelpBLock": "Varsayılan port 80",
       "applicationLanguage": "Uygulama Dili",
-      "applicationLanguageDescription": "Destek olmak ister misiniz?  <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>buradan</a> Türkçe seçeneği Ozan ERBASAN tarafından çevrilmiştir.",
+      "applicationLanguageDescription": "Destek olmak ister misiniz?  <a target='_blank' href='https://github.com/UAVmatrix/uavcast-pro-translations'>buradan</a> Türkçe seçeneği ve diğer katkılar Ozan ERBASAN ve İstikbal ekibi tarafından sağlanmıştır.",
       "applicationLanguageHelpBlock": "Varsayınal dil seçeneği",
       "buttons": {
         "changePort": "Değiştir"
@@ -372,18 +372,18 @@
       }
     },
     "led": {
-      "title": "LED Control",
-      "statusLedTitle": "OnBoard Status LED",
-      "statusLedSubTitle": "Select a status to enable the onboard status (green) LED",
-      "statusLedHelpBlock": "Select a tigger status",
-      "powerLedTitle": "OnBoard Power LED",
-      "powerLedSubTitle": "Select a status to enable the onboard power (red) LED. <br /><b>Note!</b> Not all boards is equiped with power LED.",
-      "powerLedHelpBlock": "Select a tigger status"
+      "title": "LED Kontrol",
+      "statusLedTitle": "Kart üstü Durum LED'i",
+      "statusLedSubTitle": "Bütünleşik durumu (yeşil) LED'i etkinleştirmek için bir durum seçin",
+      "statusLedHelpBlock": "Bir tetikleyici durumu seçin.",
+      "powerLedTitle": "Kart üstü Güç LED'i",
+      "powerLedSubTitle": "Yerleşik güç (kırmızı) LED'ini etkinleştirmek için bir durum seçin. <br /> <b> Not! </b> Tüm kartlarda güç LED'i yoktur.",
+      "powerLedHelpBlock": "Bir tetikleyici durumu seçin."
     }
   },
   "uavcast": {
     "title": "Kayıt Dosyaları",
-    "troubleshootingText": "If you need any assistance or have a issue you want to address, then download application logfiles and submit them to either uavmatrix forum <a href='https://discuss.uavmatrix.com/'>https://discuss.uavmatrix.com/</a> or discord server <a href='https://discord.gg/xwqMTXh/'>https://discord.gg/xwqMTXh</a>",
+    "troubleshootingText": "Herhangi bir yardıma ihtiyacınız varsa veya ele almak istediğiniz bir sorun varsa, uygulama günlük dosyalarını indirin ve bunları uavmatrix forumuna gönderin./'>https://discuss.uavmatrix.com/</a> or discord server <a href='https://discord.gg/xwqMTXh/'>https://discord.gg/xwqMTXh</a>",
     "buttons": {
       "uavcast": "UAVcast",
       "dynDns": "DynDNS",
